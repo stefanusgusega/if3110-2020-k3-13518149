@@ -1,0 +1,162 @@
+
+body {
+    background-color: #000000;
+}
+
+#welcome {
+    font-family: Lato;
+    color: #dfdfdf;
+    padding: 3px;
+    padding-left:40px;
+    margin: -8px;
+    text-align: left;
+    
+}
+
+#welcome h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.mainpage {
+    background-image: url('./images/bgbg.jpg');
+    margin:-8px;
+    text-align: center;
+    padding: 3px;
+    position:relative;
+    /* min-height:100vh; */
+    background-size:cover;
+}
+.mainpage h2 {
+    color: #dfdfdf;
+    font-family: Lato;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+img {
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    margin: 10px;
+    /* filter: grayscale(100%); */
+}
+
+.center {
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.identifier {
+    text-align:right;
+    color: #dfdfdf;
+    font-family: Lato;
+    font-size: 1.5em;
+    font-weight: 1000;
+    line-height: 1.5em;
+    list-style-type: none;
+    text-shadow:2px 2px #000000;
+}
+
+.data {
+    color: #dfdfdf;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    list-style-type: none;
+    text-align: left;
+}
+
+.button {
+    background-color: #000000;
+  border: none;
+  color: #dfdfdf;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family:Lato;
+  margin: 10px 10px;
+  transition:all 0.4s;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -50px;
+    transition: 0.4s;
+  }
+  
+  .button:hover span {
+    padding-right: 15px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  table.riwayat{
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid #dfdfdf;
+    border-collapse: collapse;
+    padding: 5px 5px;
+}
+
+td.year,td.school {
+    color: #dfdfdf;
+    font-family: Lato;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+}
+
+th.year,th.school {
+    color: #dfdfdf;
+    font-family: Lato;
+    font-size: 1.5em;
+    font-weight: 1000;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#riwayat {
+    display:none;
+}
+
+#capt {
+    text-align:center;
+    font-family:Lato;
+    font-size: 2em;
+    font-weight: 1000;
+    margin: 10px 10px;
+    color: #dfdfdf;
+}
+
+#footer h2{
+    font-family: Lato;
+    color: #dfdfdf;
+    font-size: 1.75em;
+    font-weight:900;
+    padding: 20px;
+    padding-left:40px;
+    margin: -8px;
+    text-align: right;
+}
